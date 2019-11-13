@@ -4,13 +4,13 @@
 
 ![](https://github.com/Lilium27/Homework2/blob/master/flower.PNG)
 
-### 之后尝试花了棵树
+### 之后尝试画了棵树
 
 长这样
 
 ![](https://github.com/Lilium27/Homework2/blob/master/tree_noflower.PNG)
 
-### 后来又尝试加了花
+### 最后加了花
 
 画成了这个样子（太过密集运行了很长时间……）
 
