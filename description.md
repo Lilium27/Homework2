@@ -2,7 +2,7 @@
 
 图片如下
 
-![]
+![](https://github.com/Lilium27/Homework2/blob/master/flower.PNG)
 
 ### 之后尝试花了棵树
 
