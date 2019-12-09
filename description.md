@@ -49,20 +49,20 @@ def flower(r):
 
     
 #画带花朵的树    
-def draw_tree(size):
+def tree(length):
     a=1.5 * random.random()
-    if size > 10:
-        forward(size)
+    if length > 10:
+        forward(length)
         right(25 * a)
-        draw_tree(size * 0.75)
+        tree(length * 0.75)
         flower(0.2)
         left(50 * a)
-        draw_tree(size * 0.75)
+        tree(length * 0.75)
         right(25 * a)
         color('brown')
-        if size>=10:
+        if length>=10:
             pensize(2) 
-        backward(size)
+        backward(length)
 
 
 def main():
@@ -76,10 +76,10 @@ def main():
     pendown()
     pensize(2)
     color('brown')
-    draw_tree(100)
+    tree(100)
+    exitonclick()
 
 
 if __name__ == '__main__':
     main()
-done()
 ```
